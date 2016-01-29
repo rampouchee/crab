@@ -3,4 +3,19 @@
 **Crab**
 > Small Flexbox CSS framework
 
-*Work in progress!*
+At this moment, crab is in early dev status but u can use it :)
+
+Try it with
+
+### npm
+```
+npm install crab
+```
+
+### bower
+```
+bower install crab
+```
+
+## License
+MIT License
