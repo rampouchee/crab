@@ -1,0 +1,26 @@
+{
+  "name": "crab",
+  "description": "Small Flexbox CSS framework",
+  "main": "Gulpfile.js",
+  "authors": [
+    "Rampouchee"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "CSS",
+    "Framework",
+    "Crab",
+    "Flexbox"
+  ],
+  "homepage": "https://github.com/rampouchee/crab",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
