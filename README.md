@@ -9,7 +9,7 @@ Try it with
 
 ### npm
 ```
-npm install crab
+npm install crabcss
 ```
 
 ### bower
