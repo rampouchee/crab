@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn:hover {
     background-color: #ddd;
-    background-image: linear-gradient(#eee, #ddd)
+    background-image: -webkit-linear-gradient(#eee, #ddd)
 }
 .text-left {
     text-align: left
@@ -288,6 +288,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 .flex-bottom {
     align-self: flex-end
+}
+.box {
+    background: #95a5a6;
+    color: #333333;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative
+}
+.box.box-blu {
+    background: #2980b9;
+    color: #ecf0f1
+}
+.box.box-yellow {
+    background: #f1c40f;
+    color: #ecf0f1
+}
+.box.box-orange {
+    background: #f39c12;
+    color: #ecf0f1
+}
+.box.box-violet {
+    background: #34495e;
+    color: #ecf0f1
+}
+.box.box-green {
+    background: #2ecc71;
+    color: #ecf0f1
+}
+.box.box-red {
+    background: #e74c3c;
+    color: #ecf0f1
 }
 fieldset {
     padding: 0;
