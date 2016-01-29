@@ -1,0 +1,34 @@
+{
+  "name": "crab",
+  "version": "0.1.1",
+  "description": "Small Flexbox CSS framework",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "precss": "^1.4.0"
+  },
+  "scripts": {
+    "compile": "rm -rf ./dist/ && gulp compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rampouchee/crab.git"
+  },
+  "keywords": [
+    "CSS",
+    "Framework",
+    "Crab",
+    "Flexbox"
+  ],
+  "author": "Rampouchee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rampouchee/crab/issues"
+  },
+  "homepage": "https://github.com/rampouchee/crab#readme"
+}
