@@ -17,5 +17,8 @@ npm install crabcss
 bower install crab
 ```
 
+## Documentation
+[You can see temporary documentation here](https://rampouchee.github.io/crab/)
+
 ## License
 MIT License
