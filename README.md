@@ -1,13 +1,18 @@
-[Crab](http://crabcss.com)
+# [Crab](http://crabcss.com)
 > Small Flexbox CSS framework
-<img src="https://rampouchee.github.io/crab/crab.png" width="200">
+
+[<img src="https://rampouchee.github.io/crab/crab.png" width="200">](http://crabcss.com/)
 
 At this moment, crab is in early dev status but u can try or use it even now :)
 
 ## Quick install
+**With npm**
 ```
 npm install crabcss
-or
+```
+
+**Or with bower**
+```
 bower install crab
 ```
 
