@@ -1,752 +1,761 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 body {
-  margin: 0
+    margin: 0
 }
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-  display: block
+    display: block
 }
 audio, canvas, progress, video {
-  display: inline-block;
-  vertical-align: baseline
+    display: inline-block;
+    vertical-align: baseline
 }
 audio:not([controls]) {
-  display: none;
-  height: 0
+    display: none;
+    height: 0
 }
 [hidden], template {
-  display: none
+    display: none
 }
 a {
-  background-color: transparent
+    background-color: transparent
 }
 a:active, a:hover {
-  outline: 0
+    outline: 0
 }
 abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
 }
 b, strong {
-  font-weight: inherit
+    font-weight: inherit
 }
 b, strong {
-  font-weight: bolder
+    font-weight: bolder
 }
 dfn {
-  font-style: italic
+    font-style: italic
 }
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0
+    font-size: 2em;
+    margin: 0.67em 0
 }
 mark {
-  background-color: #ff0;
-  color: #000
+    background-color: #ff0;
+    color: #000
 }
 small {
-  font-size: 80%
+    font-size: 80%
 }
 sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
 }
 sup {
-  top: -0.5em
+    top: -0.5em
 }
 sub {
-  bottom: -0.25em
+    bottom: -0.25em
 }
 img {
-  border: 0
+    border: 0
 }
 svg:not(:root) {
-  overflow: hidden
+    overflow: hidden
 }
 figure {
-  margin: 1em 40px
+    margin: 1em 40px
 }
 hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
 }
 pre {
-  overflow: auto
+    overflow: auto
 }
 code, kbd, pre, samp {
-  font-family: monospace, monospace;
-  font-size: 1em
+    font-family: monospace, monospace;
+    font-size: 1em
 }
 button, input, optgroup, select, textarea {
-  font: inherit;
-  margin: 0
+    font: inherit;
+    margin: 0
 }
 button {
-  overflow: visible
+    overflow: visible
 }
 button, select {
-  text-transform: none
+    text-transform: none
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer
+    -webkit-appearance: button;
+    cursor: pointer
 }
 button[disabled], html input[disabled] {
-  cursor: default
+    cursor: default
 }
 button::-moz-focus-inner, input::-moz-focus-inner {
-  border: 0;
-  padding: 0
+    border: 0;
+    padding: 0
 }
 input {
-  line-height: normal
+    line-height: normal
 }
 input[type="checkbox"], input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0
+    box-sizing: border-box;
+    padding: 0
 }
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
-  height: auto
+    height: auto
 }
 input[type="search"] {
-  -webkit-appearance: textfield
+    -webkit-appearance: textfield
 }
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none
+    -webkit-appearance: none
 }
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
 }
 legend {
-  border: 0;
-  padding: 0
+    border: 0;
+    padding: 0
 }
 textarea {
-  overflow: auto
+    overflow: auto
 }
 optgroup {
-  font-weight: bold
+    font-weight: bold
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0
+    border-collapse: collapse;
+    border-spacing: 0
 }
 td, th {
-  padding: 0
+    padding: 0
 }
 /*! Crab v0.1.2 - github.com/rampouchee/crab */
 * {
-  box-sizing: border-box
+    box-sizing: border-box
 }
 html {
-  background: #ffffff;
-  color: #333333;
-  font-size: 16px;
-  overflow-x: hidden;
-  overflow-y: scroll
+    background: #ffffff;
+    color: #333333;
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: scroll
 }
 a {
-  color: #bdc3c7;
-  text-decoration: none;
-  transition: all .25s ease-in-out
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: all .25s ease-in-out
 }
 hr {
-  border: 0;
-  height: 1px;
-  background: #bdc3c7
+    border: 0;
+    height: 1px;
+    background: #bdc3c7
 }
 code, pre {
-  display: block;
-  padding: 5px;
-  background: #ecf0f1;
-  color: #333333;
-  border-radius: 3px;
-  font-size: 13px
+    display: block;
+    padding: 5px;
+    background: #ecf0f1;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 13px
 }
 a:hover, a:active {
-  color: #3498db
+    color: #3498db
 }
 ul, p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0
+    margin: 0;
+    padding: 0
 }
 .container h1 {
-  padding: 10px
+    padding: 10px
 }
 .container h2 {
-  padding: 10px
+    padding: 10px
 }
 .container h3 {
-  padding: 10px
+    padding: 10px
 }
 .container h4 {
-  padding: 10px
+    padding: 10px
 }
 .container h5 {
-  padding: 10px
+    padding: 10px
 }
 .container h6 {
-  padding: 10px
+    padding: 10px
 }
 .text-left {
-  text-align: left
+    text-align: left
 }
 .text-center {
-  text-align: center
+    text-align: center
 }
 .text-right {
-  text-align: right
+    text-align: right
 }
 .float-left {
-  float: left
+    float: left
 }
 .float-right {
-  float: right
+    float: right
 }
 .centered {
-  display: block;
-  float: none;
-  margin-left: auto;
-  margin-right: auto
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto
 }
 .vert-align {
-  vertical-align: middle
+    vertical-align: middle
 }
 .hidden {
-  display: none
+    display: none
 }
 /* for transition, if needed */
 .hidden-v {
-  visibility: hidden;
-  opacity: 0
+    visibility: hidden;
+    opacity: 0
 }
 .shown-v {
-  visibility: visible;
-  opacity: 1
+    visibility: visible;
+    opacity: 1
 }
 .set-block {
-  display: block !important
+    display: block !important
 }
 .set-inline-block {
-  display: inline-block !important
+    display: inline-block !important
 }
 .reset-margin {
-  margin: 0 !important
+    margin: 0 !important
 }
 .reset-padding {
-  padding: 0 !important
+    padding: 0 !important
 }
 .margin-100 {
-  margin: 100px
+    margin: 100px
 }
 .margin-150 {
-  margin: 150px
+    margin: 150px
 }
 .margin-200 {
-  margin: 200px
+    margin: 200px
 }
 .margin-250 {
-  margin: 250px
+    margin: 250px
 }
 .margin-300 {
-  margin: 300px
+    margin: 300px
 }
 .margin-350 {
-  margin: 350px
+    margin: 350px
 }
 .margin-400 {
-  margin: 400px
+    margin: 400px
 }
 .margin-450 {
-  margin: 450px
+    margin: 450px
 }
 .margin-500 {
-  margin: 500px
+    margin: 500px
 }
 .padding-100 {
-  padding: 100px
+    padding: 100px
 }
 .padding-150 {
-  padding: 150px
+    padding: 150px
 }
 .padding-200 {
-  padding: 200px
+    padding: 200px
 }
 .padding-250 {
-  padding: 250px
+    padding: 250px
 }
 .padding-300 {
-  padding: 300px
+    padding: 300px
 }
 .padding-350 {
-  padding: 350px
+    padding: 350px
 }
 .padding-400 {
-  padding: 400px
+    padding: 400px
 }
 .padding-450 {
-  padding: 450px
+    padding: 450px
 }
 .padding-500 {
-  padding: 500px
+    padding: 500px
 }
 .text-green {
-  color: #2ecc71
+    color: #2ecc71 !important
 }
 .text-red {
-  color: #e74c3c
+    color: #e74c3c !important
 }
 .text-violet {
-  color: #34495e
+    color: #34495e !important
 }
 .text-blu {
-  color: #3498db
+    color: #3498db !important
 }
 .text-orange {
-  color: #f39c12
+    color: #f39c12 !important
 }
 .text-yellow {
-  color: #f1c40f
+    color: #f1c40f !important
 }
 .text-wisteria {
-  color: #8e44ad
+    color: #8e44ad !important
+}
+.text-white {
+    color: #ffffff !important
 }
 .bg-green {
-  background: #2ecc71
+    background: #2ecc71 !important
 }
 .bg-red {
-  background: #e74c3c
+    background: #e74c3c !important
 }
 .bg-vio {
-  background: #34495e
+    background: #34495e !important
 }
 .bg-blu {
-  background: #3498db
+    background: #3498db !important
 }
 .bg-orange {
-  background: #f39c12
+    background: #f39c12 !important
 }
 .bg-yellow {
-  background: #f1c40f
+    background: #f1c40f !important
 }
 .bg-wisteria {
-  background: #8e44ad
+    background: #8e44ad !important
+}
+.bg-white {
+    background: #ffffff !important
 }
 .container {
-  margin: 0 auto;
-  width: 960px
+    margin: 0 auto;
+    width: 960px
 }
 .row {
-  display: flex
+    display: flex
 }
 .row-center {
-  display: flex;
-  align-items: center;
-  justify-content: center
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 .flex-top {
-  align-self: flex-start
+    align-self: flex-start
 }
 .flex-bottom {
-  align-self: flex-end
+    align-self: flex-end
 }
 .item {
-  flex: 1
+    flex: 1
 }
 .item-1 {
-  flex: 1
+    flex: 1
 }
 .item-2 {
-  flex: 2
+    flex: 2
 }
 .item-3 {
-  flex: 3
+    flex: 3
 }
 .item-4 {
-  flex: 4
+    flex: 4
 }
 .item-5 {
-  flex: 5
+    flex: 5
 }
 .item-6 {
-  flex: 6
+    flex: 6
 }
 .item-7 {
-  flex: 7
+    flex: 7
 }
 .item-8 {
-  flex: 8
+    flex: 8
 }
 .item-9 {
-  flex: 9
+    flex: 9
 }
 .item-10 {
-  flex: 10
+    flex: 10
 }
 .item-11 {
-  flex: 11
+    flex: 11
 }
 .item-12 {
-  flex: 12
+    flex: 12
 }
 .item-100 {
-  flex: 1;
-  max-width: 100px
+    flex: 1;
+    max-width: 100px
 }
 .item-150 {
-  flex: 1;
-  max-width: 150px
+    flex: 1;
+    max-width: 150px
 }
 .item-200 {
-  flex: 1;
-  max-width: 200px
+    flex: 1;
+    max-width: 200px
 }
 .item-250 {
-  flex: 1;
-  max-width: 250px
+    flex: 1;
+    max-width: 250px
 }
 .item-300 {
-  flex: 1;
-  max-width: 300px
+    flex: 1;
+    max-width: 300px
 }
 .item-350 {
-  flex: 1;
-  max-width: 350px
+    flex: 1;
+    max-width: 350px
 }
 .item-400 {
-  flex: 1;
-  max-width: 400px
+    flex: 1;
+    max-width: 400px
 }
 .item-450 {
-  flex: 1;
-  max-width: 450px
+    flex: 1;
+    max-width: 450px
 }
 .item-500 {
-  flex: 1;
-  max-width: 500px
+    flex: 1;
+    max-width: 500px
 }
 .item-550 {
-  flex: 1;
-  max-width: 550px
+    flex: 1;
+    max-width: 550px
 }
 .item-600 {
-  flex: 1;
-  max-width: 600px
+    flex: 1;
+    max-width: 600px
 }
 .item-650 {
-  flex: 1;
-  max-width: 650px
+    flex: 1;
+    max-width: 650px
 }
 .item-700 {
-  flex: 1;
-  max-width: 700px
+    flex: 1;
+    max-width: 700px
 }
 .item-750 {
-  flex: 1;
-  max-width: 750px
+    flex: 1;
+    max-width: 750px
 }
 .item-800 {
-  flex: 1;
-  max-width: 800px
+    flex: 1;
+    max-width: 800px
 }
 .item-850 {
-  flex: 1;
-  max-width: 850px
+    flex: 1;
+    max-width: 850px
 }
 .item-900 {
-  flex: 1;
-  max-width: 900px
+    flex: 1;
+    max-width: 900px
 }
 .item-950 {
-  flex: 1;
-  max-width: 950px
+    flex: 1;
+    max-width: 950px
 }
 .item-1000 {
-  flex: 1;
-  max-width: 1000px
+    flex: 1;
+    max-width: 1000px
 }
 .item-1050 {
-  flex: 1;
-  max-width: 1050px
+    flex: 1;
+    max-width: 1050px
 }
 .item-1100 {
-  flex: 1;
-  max-width: 1100px
+    flex: 1;
+    max-width: 1100px
 }
 .item-1150 {
-  flex: 1;
-  max-width: 1150px
+    flex: 1;
+    max-width: 1150px
 }
 .item-1200 {
-  flex: 1;
-  max-width: 1200px
+    flex: 1;
+    max-width: 1200px
 }
 .item-1250 {
-  flex: 1;
-  max-width: 1250px
+    flex: 1;
+    max-width: 1250px
 }
 .box {
-  background: #95a5a6;
-  color: #333333;
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 3px;
-  border: 0;
-  white-space: nowrap;
-  vertical-align: middle;
-  position: relative
+    background: #95a5a6;
+    color: #333333;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    position: relative
 }
 .box.box-blu {
-  background: #2980b9;
-  color: #ecf0f1
+    background: #2980b9;
+    color: #ecf0f1
 }
 .box.box-yellow {
-  background: #f1c40f;
-  color: #ecf0f1
+    background: #f1c40f;
+    color: #ecf0f1
 }
 .box.box-orange {
-  background: #f39c12;
-  color: #ecf0f1
+    background: #f39c12;
+    color: #ecf0f1
 }
 .box.box-violet {
-  background: #34495e;
-  color: #ecf0f1
+    background: #34495e;
+    color: #ecf0f1
 }
 .box.box-green {
-  background: #2ecc71;
-  color: #ecf0f1
+    background: #2ecc71;
+    color: #ecf0f1
 }
 .box.box-red {
-  background: #e74c3c;
-  color: #ecf0f1
+    background: #e74c3c;
+    color: #ecf0f1
 }
 blockquote {
-  margin: 5px 2px;
-  padding: 10px;
-  color: #858585;
-  border-left: 4px solid #e5e5e5
+    margin: 5px 2px;
+    padding: 10px;
+    color: #858585;
+    border-left: 4px solid #e5e5e5
 }
 .navbar {
-  background: #clouds;
-  border-right: 1px solid #e5e5e5
+    background: #clouds;
+    border-right: 1px solid #e5e5e5
 }
 .navbar li {
-  display: block
+    display: block
 }
 .navbar li a {
-  color: #333333;
-  display: block;
-  padding: 10px
+    color: #333333;
+    display: block;
+    padding: 10px
 }
 .navbar li a:hover {
-  background: #333333;
-  color: #ecf0f1
+    background: #333333;
+    color: #ecf0f1
 }
 .navbar ul {
-  display: block
+    display: block
 }
 .navbar ul li a {
-  display: block;
-  padding-left: 25px
+    display: block;
+    padding-left: 25px
 }
 .btn {
-  background: #95a5a6;
-  color: #333333;
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 3px;
-  border: 0;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  position: relative
+    background: #95a5a6;
+    color: #333333;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative
 }
 .btn.btn-info {
-  background: #34495e;
-  color: #ecf0f1
+    background: #34495e;
+    color: #ecf0f1
 }
 .btn.btn-info:hover {
-  background: rgb(51, 115, 179)
+    background: rgb(51, 115, 179)
 }
 .btn.btn-success {
-  background: #2ecc71;
-  color: #ecf0f1
+    background: #2ecc71;
+    color: #ecf0f1
 }
 .btn.btn-success:hover {
-  background: rgb(46, 179, 101)
+    background: rgb(46, 179, 101)
 }
 .btn.btn-alert {
-  background: #e74c3c;
-  color: #ecf0f1
+    background: #e74c3c;
+    color: #ecf0f1
 }
 .btn.btn-alert:hover {
-  background: rgb(179, 73, 61)
+    background: rgb(179, 73, 61)
+}
+.btn:hover {
+    background: rgb(148, 176, 179)
 }
 fieldset {
-  padding: 0;
-  margin: 0;
-  border: 0
+    padding: 0;
+    margin: 0;
+    border: 0
 }
 label {
-  font-size: 13px;
-  font-weight: bold
+    font-size: 13px;
+    font-weight: bold
 }
 .form-input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], input[type="url"], select, textarea {
-  min-height: 34px;
-  padding: 5px;
-  font-size: 13px;
-  color: #333;
-  vertical-align: middle;
-  background-color: #ecf0f1;
-  border: 1px solid #f5f5f5;
-  border-radius: 3px;
-  outline: none
+    min-height: 34px;
+    padding: 5px;
+    font-size: 13px;
+    color: #333;
+    vertical-align: middle;
+    background-color: #ecf0f1;
+    border: 1px solid #f5f5f5;
+    border-radius: 3px;
+    outline: none
 }
 ::placeholder {
-  color: #777777
+    color: #777777
 }
 @media screen and (max-width: 960px) {
-  .container {
-    width: auto
-  }
+    .container {
+        width: auto
+    }
 }
 @media screen and (max-width: 640px) {
-  .row {
-    display: block
-  }
-  .row-center {
-    display: block
-  }
-  .btn {
-    margin: 2px
-  }
-  .box {
-    margin: 2px
-  }
-  .item {
-    width: 100%
-  }
-  .item-100 {
-    width: 100%
-  }
-  .item-150 {
-    width: 100%
-  }
-  .item-200 {
-    width: 100%
-  }
-  .item-250 {
-    width: 100%
-  }
-  .item-300 {
-    width: 100%
-  }
-  .item-350 {
-    width: 100%
-  }
-  .item-400 {
-    width: 100%
-  }
-  .item-450 {
-    width: 100%
-  }
-  .item-500 {
-    width: 100%
-  }
-  .item-550 {
-    width: 100%
-  }
-  .item-600 {
-    width: 100%
-  }
-  .item-650 {
-    width: 100%
-  }
-  .item-700 {
-    width: 100%
-  }
-  .item-750 {
-    width: 100%
-  }
-  .item-800 {
-    width: 100%
-  }
-  .item-850 {
-    width: 100%
-  }
-  .item-900 {
-    width: 100%
-  }
-  .item-950 {
-    width: 100%
-  }
-  .item-1000 {
-    width: 100%
-  }
-  .item-1050 {
-    width: 100%
-  }
-  .item-1100 {
-    width: 100%
-  }
-  .item-1150 {
-    width: 100%
-  }
-  .item-1200 {
-    width: 100%
-  }
-  .item-1250 {
-    width: 100%
-  }
-  .item-1 {
-    width: 100%
-  }
-  .item-2 {
-    width: 100%
-  }
-  .item-3 {
-    width: 100%
-  }
-  .item-4 {
-    width: 100%
-  }
-  .item-5 {
-    width: 100%
-  }
-  .item-6 {
-    width: 100%
-  }
-  .item-7 {
-    width: 100%
-  }
-  .item-8 {
-    width: 100%
-  }
-  .item-9 {
-    width: 100%
-  }
-  .item-10 {
-    width: 100%
-  }
-  .item-11 {
-    width: 100%
-  }
-  .item-12 {
-    width: 100%
-  }
-  .navbar {
-    display: none
-  }
+    .row {
+        display: block
+    }
+    .row-center {
+        display: block
+    }
+    .btn {
+        margin: 2px
+    }
+    .box {
+        margin: 2px
+    }
+    .item {
+        width: 100%
+    }
+    .item-100 {
+        width: 100%
+    }
+    .item-150 {
+        width: 100%
+    }
+    .item-200 {
+        width: 100%
+    }
+    .item-250 {
+        width: 100%
+    }
+    .item-300 {
+        width: 100%
+    }
+    .item-350 {
+        width: 100%
+    }
+    .item-400 {
+        width: 100%
+    }
+    .item-450 {
+        width: 100%
+    }
+    .item-500 {
+        width: 100%
+    }
+    .item-550 {
+        width: 100%
+    }
+    .item-600 {
+        width: 100%
+    }
+    .item-650 {
+        width: 100%
+    }
+    .item-700 {
+        width: 100%
+    }
+    .item-750 {
+        width: 100%
+    }
+    .item-800 {
+        width: 100%
+    }
+    .item-850 {
+        width: 100%
+    }
+    .item-900 {
+        width: 100%
+    }
+    .item-950 {
+        width: 100%
+    }
+    .item-1000 {
+        width: 100%
+    }
+    .item-1050 {
+        width: 100%
+    }
+    .item-1100 {
+        width: 100%
+    }
+    .item-1150 {
+        width: 100%
+    }
+    .item-1200 {
+        width: 100%
+    }
+    .item-1250 {
+        width: 100%
+    }
+    .item-1 {
+        width: 100%
+    }
+    .item-2 {
+        width: 100%
+    }
+    .item-3 {
+        width: 100%
+    }
+    .item-4 {
+        width: 100%
+    }
+    .item-5 {
+        width: 100%
+    }
+    .item-6 {
+        width: 100%
+    }
+    .item-7 {
+        width: 100%
+    }
+    .item-8 {
+        width: 100%
+    }
+    .item-9 {
+        width: 100%
+    }
+    .item-10 {
+        width: 100%
+    }
+    .item-11 {
+        width: 100%
+    }
+    .item-12 {
+        width: 100%
+    }
+    .navbar {
+        display: none
+    }
 }

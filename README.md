@@ -1,7 +1,7 @@
 # [Crab](http://crabcss.com)
 > Small Flexbox CSS framework
 
-[<img src="https://rampouchee.github.io/crab/crab.png" width="200">](http://crabcss.com/)
+[<img src="http://crabcss.com/assets/img/crab.png" width="200">](http://crabcss.com/)
 
 At this moment, crab is in early dev status but u can try or use it even now :)
 
