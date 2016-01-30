@@ -144,7 +144,7 @@ table {
 td, th {
     padding: 0
 }
-/*! Crab v0.1.1 - github.com/rampouchee/crab */
+/*! Crab v0.1.2 - github.com/rampouchee/crab */
 * {
     box-sizing: border-box
 }
@@ -156,14 +156,27 @@ html {
     overflow-y: scroll
 }
 a {
-    color: #333333;
+    color: #bdc3c7;
     text-decoration: none;
-    transition: all .25s ease-in-out
+    transition: all .15s ease-in-out
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7
+}
+code, pre {
+    display: block;
+    padding: 5px;
+    background: #333333;
+    color: #ecf0f1;
+    border-radius: 3px;
+    font-size: 13px
 }
 a:hover, a:active {
     color: #3498db
 }
-h1, h2, h3, h4, h5, h6 {
+ul, p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0
 }
@@ -184,35 +197,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .container h6 {
     padding: 10px
-}
-.btn {
-    background: #95a5a6;
-    color: #333333;
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 3px;
-    border: 0;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    position: relative
-}
-.btn.btn-info {
-    background: #34495e;
-    color: #ecf0f1
-}
-.btn.btn-success {
-    background: #2ecc71;
-    color: #ecf0f1
-}
-.btn.btn-alert {
-    background: #e74c3c;
-    color: #ecf0f1
-}
-.btn:hover {
-    background-color: #ddd;
-    background-image: -webkit-linear-gradient(#eee, #ddd)
 }
 .text-left {
     text-align: left
@@ -235,6 +219,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
     margin-right: auto
 }
+.vert-align {
+    vertical-align: middle
+}
 .hidden {
     display: none
 }
@@ -248,16 +235,70 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1
 }
 .set-block {
-    display: block
+    display: block !important
 }
 .set-inline-block {
-    display: inline-block
+    display: inline-block !important
 }
 .reset-margin {
     margin: 0 !important
 }
 .reset-padding {
     padding: 0 !important
+}
+.margin-100 {
+    margin: 100px
+}
+.margin-150 {
+    margin: 150px
+}
+.margin-200 {
+    margin: 200px
+}
+.margin-250 {
+    margin: 250px
+}
+.margin-300 {
+    margin: 300px
+}
+.margin-350 {
+    margin: 350px
+}
+.margin-400 {
+    margin: 400px
+}
+.margin-450 {
+    margin: 450px
+}
+.margin-500 {
+    margin: 500px
+}
+.padding-100 {
+    padding: 100px
+}
+.padding-150 {
+    padding: 150px
+}
+.padding-200 {
+    padding: 200px
+}
+.padding-250 {
+    padding: 250px
+}
+.padding-300 {
+    padding: 300px
+}
+.padding-350 {
+    padding: 350px
+}
+.padding-400 {
+    padding: 400px
+}
+.padding-450 {
+    padding: 450px
+}
+.padding-500 {
+    padding: 500px
 }
 .text-green {
     color: #2ecc71
@@ -268,17 +309,23 @@ h1, h2, h3, h4, h5, h6 {
 .text-info {
     color: #34495e
 }
+.bg-green {
+    background: #2ecc71
+}
+.bg-red {
+    background: #e74c3c
+}
+.bg-vio {
+    background: #34495e
+}
 .container {
     margin: 0 auto;
     width: 960px
 }
-.columns {
+.row {
     display: flex
 }
-.item {
-    flex: 1
-}
-.flex-center-start {
+.row-center {
     display: flex;
     align-items: center;
     justify-content: center
@@ -288,6 +335,141 @@ h1, h2, h3, h4, h5, h6 {
 }
 .flex-bottom {
     align-self: flex-end
+}
+.item {
+    flex: 1
+}
+.item-1 {
+    flex: 1
+}
+.item-2 {
+    flex: 2
+}
+.item-3 {
+    flex: 3
+}
+.item-4 {
+    flex: 4
+}
+.item-5 {
+    flex: 5
+}
+.item-6 {
+    flex: 6
+}
+.item-7 {
+    flex: 7
+}
+.item-8 {
+    flex: 8
+}
+.item-9 {
+    flex: 9
+}
+.item-10 {
+    flex: 10
+}
+.item-11 {
+    flex: 11
+}
+.item-12 {
+    flex: 12
+}
+.item-100 {
+    flex: 1;
+    max-width: 100px
+}
+.item-150 {
+    flex: 1;
+    max-width: 150px
+}
+.item-200 {
+    flex: 1;
+    max-width: 200px
+}
+.item-250 {
+    flex: 1;
+    max-width: 250px
+}
+.item-300 {
+    flex: 1;
+    max-width: 300px
+}
+.item-350 {
+    flex: 1;
+    max-width: 350px
+}
+.item-400 {
+    flex: 1;
+    max-width: 400px
+}
+.item-450 {
+    flex: 1;
+    max-width: 450px
+}
+.item-500 {
+    flex: 1;
+    max-width: 500px
+}
+.item-550 {
+    flex: 1;
+    max-width: 550px
+}
+.item-600 {
+    flex: 1;
+    max-width: 600px
+}
+.item-650 {
+    flex: 1;
+    max-width: 650px
+}
+.item-700 {
+    flex: 1;
+    max-width: 700px
+}
+.item-750 {
+    flex: 1;
+    max-width: 750px
+}
+.item-800 {
+    flex: 1;
+    max-width: 800px
+}
+.item-850 {
+    flex: 1;
+    max-width: 850px
+}
+.item-900 {
+    flex: 1;
+    max-width: 900px
+}
+.item-950 {
+    flex: 1;
+    max-width: 950px
+}
+.item-1000 {
+    flex: 1;
+    max-width: 1000px
+}
+.item-1050 {
+    flex: 1;
+    max-width: 1050px
+}
+.item-1100 {
+    flex: 1;
+    max-width: 1100px
+}
+.item-1150 {
+    flex: 1;
+    max-width: 1150px
+}
+.item-1200 {
+    flex: 1;
+    max-width: 1200px
+}
+.item-1250 {
+    flex: 1;
+    max-width: 1250px
 }
 .box {
     background: #95a5a6;
@@ -325,6 +507,69 @@ h1, h2, h3, h4, h5, h6 {
     background: #e74c3c;
     color: #ecf0f1
 }
+blockquote {
+    margin: 5px 2px;
+    padding: 10px;
+    color: #858585;
+    border-left: 4px solid #e5e5e5
+}
+.navbar {
+    background: #clouds;
+    border-right: 1px solid #e5e5e5
+}
+.navbar li {
+    display: block
+}
+.navbar li a {
+    color: #333333;
+    display: block;
+    padding: 10px
+}
+.navbar li a:hover {
+    background: #333333;
+    color: #ecf0f1
+}
+.navbar ul {
+    display: block
+}
+.navbar ul li a {
+    display: block;
+    padding-left: 25px
+}
+.btn {
+    background: #95a5a6;
+    color: #333333;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative
+}
+.btn.btn-info {
+    background: #34495e;
+    color: #ecf0f1
+}
+.btn.btn-info:hover {
+    background: rgb(51, 115, 179)
+}
+.btn.btn-success {
+    background: #2ecc71;
+    color: #ecf0f1
+}
+.btn.btn-success:hover {
+    background: rgb(46, 179, 101)
+}
+.btn.btn-alert {
+    background: #e74c3c;
+    color: #ecf0f1
+}
+.btn.btn-alert:hover {
+    background: rgb(179, 73, 61)
+}
 fieldset {
     padding: 0;
     margin: 0;
@@ -354,10 +599,130 @@ label {
     }
 }
 @media screen and (max-width: 640px) {
-    .columns {
+    .row {
         display: block
     }
-    .flex-center-start {
+    .row-center {
         display: block
+    }
+    .btn {
+        margin: 2px
+    }
+    .box {
+        margin: 2px
+    }
+    .item {
+        width: 100%
+    }
+    .item-100 {
+        width: 100%
+    }
+    .item-150 {
+        width: 100%
+    }
+    .item-200 {
+        width: 100%
+    }
+    .item-250 {
+        width: 100%
+    }
+    .item-300 {
+        width: 100%
+    }
+    .item-350 {
+        width: 100%
+    }
+    .item-400 {
+        width: 100%
+    }
+    .item-450 {
+        width: 100%
+    }
+    .item-500 {
+        width: 100%
+    }
+    .item-550 {
+        width: 100%
+    }
+    .item-600 {
+        width: 100%
+    }
+    .item-650 {
+        width: 100%
+    }
+    .item-700 {
+        width: 100%
+    }
+    .item-750 {
+        width: 100%
+    }
+    .item-800 {
+        width: 100%
+    }
+    .item-850 {
+        width: 100%
+    }
+    .item-900 {
+        width: 100%
+    }
+    .item-950 {
+        width: 100%
+    }
+    .item-1000 {
+        width: 100%
+    }
+    .item-1050 {
+        width: 100%
+    }
+    .item-1100 {
+        width: 100%
+    }
+    .item-1150 {
+        width: 100%
+    }
+    .item-1200 {
+        width: 100%
+    }
+    .item-1250 {
+        width: 100%
+    }
+    .item-1 {
+        width: 100%
+    }
+    .item-2 {
+        width: 100%
+    }
+    .item-3 {
+        width: 100%
+    }
+    .item-4 {
+        width: 100%
+    }
+    .item-5 {
+        width: 100%
+    }
+    .item-6 {
+        width: 100%
+    }
+    .item-7 {
+        width: 100%
+    }
+    .item-8 {
+        width: 100%
+    }
+    .item-9 {
+        width: 100%
+    }
+    .item-10 {
+        width: 100%
+    }
+    .item-11 {
+        width: 100%
+    }
+    .item-12 {
+        width: 100%
+    }
+    .navbar {
+        display: none
     }
 }
