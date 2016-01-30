@@ -5,7 +5,7 @@
 
 At this moment, crab is in early dev status but u can try or use it even now :)
 
-Documentation being reworked at: [Here](https://crabcss.com/)
+Documentation being reworked at: [Here](http://crabcss.com/)
 
 ## License
 MIT License
