@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  background: $bg-color;
+  color: $text-color;
+  font-size: $text-size;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  color: $silver;
+  text-decoration: none;
+  transition: all .25s ease-in-out
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $silver;
+}
+
+code,
+pre {
+  display: block;
+  padding: 5px;
+  background: $clouds;
+  color: #333333;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+a:hover,
+a:active {
+  color: #3498db
+}
+
+ul, p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0
+}
+
+@for $h from 1 to 6 {
+  .container h$h {
+    padding: 10px;
+  }
+}

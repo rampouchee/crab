@@ -1,0 +1,39 @@
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.row {
+  display: flex;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-top {
+  align-self: flex-start;
+}
+
+.flex-bottom {
+  align-self: flex-end;
+}
+
+.item {
+  flex: 1;
+}
+
+@for $i from 1 to 12 by 1 {
+  .item-$i {
+    flex: $i;
+  }
+}
+
+@for $i from 100 to 1250 by 50 {
+  .item-$i {
+    flex: 1;
+    max-width: $(i)px;
+  }
+}

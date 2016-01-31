@@ -1,0 +1,37 @@
+.btn {
+  background: $concrete;
+  color: $text-color;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+  &:hover {
+    background: color($concrete blackness(30%));
+  }
+  &.btn-alert {
+    background: $aliz;
+    color: $clouds;
+    &:hover {
+      background: color($aliz blackness(30%));
+    }
+  }
+  &.btn-success {
+    background: $emerald;
+    color: $clouds;
+    &:hover {
+      background: color($emerald blackness(30%));
+    }
+  }
+  &.btn-info {
+    background: $asph;
+    color: $clouds;
+    &:hover {
+      background: color($asph blackness(30%));
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@media screen and (max-width: 960px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .row {
+    display: block;
+  }
+  .row-center {
+    display: block;
+  }
+  .btn {
+    margin: 2px;
+  }
+  .box {
+    margin: 2px;
+  }
+  .item {
+    width: 100%;
+  }
+  @for $i from 100 to 1250 by 50 {
+    .item-$i {
+      width: 100%;
+    }
+  }
+  @for $i from 1 to 12 by 1 {
+    .item-$i {
+      width: 100%;
+    }
+  }
+  .navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,48 @@
+.navbar {
+  background: #clouds;
+  border-right: 1px solid #e5e5e5;
+  & ul {
+    display: block;
+    & li a {
+      display: block;
+      padding-left: 25px;
+    }
+  }
+  & li {
+    display: block;
+    & a {
+      color: #333333;
+      display: block;
+      padding: 10px;
+      &:hover {
+        background: #333333;
+        color: $clouds;
+      }
+    }
+  }
+}
+
+.inline-navbar {
+  background: #clouds;
+  border-right: 1px solid #e5e5e5;
+  & ul {
+    display: inline-block;
+    & li a {
+      display: block;
+      padding-left: 25px;
+    }
+  }
+  & li {
+    display: inline-block;
+    float: left;
+    & a {
+      color: #333333;
+      display: block;
+      padding: 10px;
+      &:hover {
+        background: #333333;
+        color: $clouds;
+      }
+    }
+  }
+}

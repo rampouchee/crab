@@ -1,0 +1,60 @@
+.text-left {
+  text-align: left
+}
+.text-center {
+  text-align: center
+}
+.text-right {
+  text-align: right
+}
+.float-left {
+  float: left
+}
+.float-right {
+  float: right
+}
+.centered {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto
+}
+.vert-align {
+  vertical-align: middle;
+}
+.hidden {
+  display: none
+}
+/* for transition, if needed */
+.hidden-v {
+  visibility: hidden;
+  opacity: 0
+}
+.shown-v {
+  visibility: visible;
+  opacity: 1
+}
+.set-block {
+  display: block !important
+}
+.set-inline-block {
+  display: inline-block !important
+}
+.reset-margin {
+  margin: 0 !important
+}
+.reset-padding {
+  padding: 0 !important
+}
+
+@for $i from 100 to 500 by 50 {
+  .margin-$i {
+    margin: $(i)px;
+  }
+}
+
+@for $i from 100 to 500 by 50 {
+  .padding-$i {
+    padding: $(i)px;
+  }
+}

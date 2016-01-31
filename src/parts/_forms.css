@@ -1,0 +1,30 @@
+.form-vertical {
+  background: $clouds;
+  color: #333333;
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+}
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0
+}
+label {
+  font-size: 13px;
+  font-weight: bold
+}
+.form-input, input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], input[type="url"], select, textarea {
+  min-height: 34px;
+  padding: 5px;
+  font-size: 13px;
+  color: #333;
+  vertical-align: middle;
+  background-color: #ecf0f1;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px;
+  outline: none
+}
+::placeholder {
+  color: #777777
+}

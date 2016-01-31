@@ -1,0 +1,43 @@
+.box {
+  background: $concrete;
+  color: $text-color;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 0;
+  white-space: nowrap;
+  vertical-align: middle;
+  position: relative;
+  &.box-red {
+    background: $aliz;
+    color: $clouds;
+  }
+  &.box-green {
+    background: $emerald;
+    color: $clouds;
+  }
+  &.box-violet {
+    background: $asph;
+    color: $clouds;
+  }
+  &.box-orange {
+    background: $orange;
+    color: $clouds;
+  }
+  &.box-yellow {
+    background: $sunfl;
+    color: $clouds;
+  }
+  &.box-blu {
+    background: $belo;
+    color: $clouds;
+  }
+}
+
+blockquote {
+  margin: 5px 2px;
+  padding: 10px;
+  color: #858585;
+  border-left: 4px solid #e5e5e5;
+}

@@ -1,6 +1,6 @@
 {
   "name": "crab",
-  "version": "0.1.3-1",
+  "version": "0.1.4",
   "description": "Small Flexbox CSS framework",
   "main": "Gulpfile.js",
   "dependencies": {},
@@ -8,6 +8,7 @@
     "autoprefixer": "^6.3.1",
     "gulp": "^3.9.0",
     "gulp-cssnano": "^2.1.0",
+    "gulp-esformatter": "^5.0.0",
     "gulp-postcss": "^6.0.1",
     "gulp-rename": "^1.2.2",
     "precss": "^1.4.0"

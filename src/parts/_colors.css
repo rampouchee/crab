@@ -1,0 +1,49 @@
+.text-green {
+  color: $emerald !important;
+}
+.text-red {
+  color: $aliz !important;
+}
+.text-violet {
+  color: $asph !important;
+}
+.text-blu {
+  color: $priver !important;
+}
+.text-orange {
+  color: $orange !important;
+}
+.text-yellow {
+  color: $sunfl !important;
+}
+.text-wisteria {
+  color: $wisteria !important;
+}
+.text-white {
+  color: #ffffff !important;
+}
+
+.bg-green {
+  background: $emerald !important;
+}
+.bg-red {
+  background: $aliz !important;
+}
+.bg-vio {
+  background: $asph !important;
+}
+.bg-blu {
+  background: $priver !important;
+}
+.bg-orange {
+  background: $orange !important;
+}
+.bg-yellow {
+  background: $sunfl !important;
+}
+.bg-wisteria {
+  background: $wisteria !important;
+}
+.bg-white {
+  background: #ffffff !important;
+}
