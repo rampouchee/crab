@@ -2,8 +2,19 @@
   background: color($concrete blackness(30%));
   border-radius: 3px;
   border: 1px solid #333333;
-  &.alert-red {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  &.alert-danger {
     background: color($aliz lightness(80%));
-    border-radius: $aliz;
+    border: 1px solid $aliz;
+  }
+  &.alert-info {
+    background: color($asph lightness(60%));
+    border: 1px solid $asph;
+  }
+  &.alert-success {
+    background: color($emerald lightness(70%));
+    border: 1px solid $emerald;
   }
 }
