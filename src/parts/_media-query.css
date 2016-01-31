@@ -11,12 +11,6 @@
   .row-center {
     display: block;
   }
-  .btn {
-    margin: 2px;
-  }
-  .box {
-    margin: 2px;
-  }
   .item {
     width: 100%;
   }
@@ -30,7 +24,8 @@
       width: 100%;
     }
   }
-  .navbar {
+  .navbar,
+  .inline-navbar {
     display: none;
   }
 }

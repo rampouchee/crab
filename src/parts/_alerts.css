@@ -1,0 +1,9 @@
+.alert {
+  background: color($concrete blackness(30%));
+  border-radius: 3px;
+  border: 1px solid #333333;
+  &.alert-red {
+    background: color($aliz lightness(80%));
+    border-radius: $aliz;
+  }
+}

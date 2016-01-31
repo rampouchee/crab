@@ -1,0 +1,11 @@
+pre,
+code {
+  display: block;
+  margin: 3px 6px;
+  padding: 5px;
+  background: $clouds;
+  color: #333333;
+  border-radius: 3px;
+  font-size: 13px;
+  white-space: nowrap;
+}

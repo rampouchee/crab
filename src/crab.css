@@ -1,12 +1,15 @@
 /*! normalize.css v3.0.3 - github.com/necolas/normalize.css */
 @import "parts/normalize";
-/*! Crab v0.1.4 - github.com/rampouchee/crab */
+/*! Crab v0.1.5 - github.com/rampouchee/crab */
 @import "parts/variables";
 @import "parts/base";
+@import "parts/code";
 @import "parts/helpers";
 @import "parts/colors";
 @import "parts/grid";
+@import "parts/alerts";
 @import "parts/boxes";
+@import "parts/table";
 @import "parts/nav";
 @import "parts/button";
 @import "parts/forms";
