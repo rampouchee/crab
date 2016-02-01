@@ -11,7 +11,7 @@
   cursor: pointer;
   position: relative;
   &:hover {
-    background: color($concrete blackness(30%));
+    background: color($concrete blackness(40%));
   }
   &.btn-alert {
     background: $aliz;

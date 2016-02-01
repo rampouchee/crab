@@ -22,7 +22,7 @@ a {
 hr {
   border: 0;
   height: 1px;
-  background: $silver;
+  background: #e5e5e5;
 }
 
 a:hover,

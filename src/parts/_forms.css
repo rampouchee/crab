@@ -2,6 +2,7 @@
 .form-vertical {
   background: $clouds;
   color: #333333;
+  margin: 5px;
   padding: 15px;
   border-radius: 3px;
   border: 1px solid #e5e5e5;
