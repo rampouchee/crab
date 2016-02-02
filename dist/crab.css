@@ -872,7 +872,8 @@ blockquote {
     border-left: 4px solid #e5e5e5
 }
 table {
-    width: 100%
+    width: 100%;
+    height: auto
 }
 th, td {
     border-bottom: 2px solid #e5e5e5;

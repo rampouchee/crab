@@ -1,6 +1,6 @@
 {
   "name": "crab",
-  "version": "0.1.5",
+  "version": "0.1.5-1",
   "description": "Small Flexbox CSS framework",
   "main": "Gulpfile.js",
   "dependencies": {},
